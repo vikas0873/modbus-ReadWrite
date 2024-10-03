@@ -1,0 +1,29 @@
+{
+    "bootup": {
+        "mac_id": "40:22:D8:5F:30:50",
+        "node_id": "E3D33748",
+        "project_key": "B0C357D2",
+        "subdomain": "vikas"
+    },
+    "config": {
+        "baud_rate": 19200,
+        "baud_config": "SERIAL_8E1",
+        "delay_interval": 5000,
+        "slave_config": [
+            {
+                "slave_id": "1",
+                "start_address": "6008",
+                "read_upto": 1,
+                "operation": "read",
+                "Write_value": null
+            },
+            {
+                "slave_id": "2",
+                "start_address": "6008",
+                "read_upto": "NULL",
+                "operation": "write",
+                "Write_value": 123
+            }
+        ]
+    }
+}
